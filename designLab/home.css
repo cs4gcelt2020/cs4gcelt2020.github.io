@@ -1,0 +1,84 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#head_nav
+{
+	position: absolute;
+	left: 200px;
+}
+#head{
+	color: green;
+	font-size: 25px;
+}
+#main
+{
+	position: absolute;
+	left: 180px;
+	border: 2px gray;
+	top: 140px;
+}
+#main_img
+{
+	height: 400pt;
+	width: 800pt;
+	resize: both;
+}
+#course{
+	font-size: 40px;
+	font-weight: bold;
+}
+#about_img
+{
+	height: 300px;
+	width: 500px;
+}
+#serv_img
+{
+	height: 150px;
+	width: 300px;
+	float: right;
+}
+#footer
+{
+	background: #C0C0C0;
+}
+
+.ourcourse {
+  padding: 20px;
+
